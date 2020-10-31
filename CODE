@@ -1,10 +1,8 @@
-from tkinter import *
+ from tkinter import *
 root=Tk()
 root.geometry('1600x800')
 root.title("Mobile Recommender")
-Label(root, text="************************",font=("Helvetica", 24), fg="red").grid(row=0,column=0,columnspan=5,padx=(200,0))
-Label(root, text="WELCOME TO MOBILE RECOMMENDER SYSTEM",font=("Helvetica", 30),fg="blue").grid(row=1,column=0,columnspan=5,padx=(200,0))
-Label(root, text="************************",font=("Helvetica", 24),fg="red").grid(row=2,column=0,columnspan=5,padx=(200,0),pady=10)
+Label(root, text="WELCOME TO MOBILE RECOMMENDER SYSTEM",font=("Helvetica", 30),fg="red").grid(row=1,column=0,columnspan=5,padx=(200,0))
 user=StringVar()
 Label(root,text="Please Enter Your Name").grid(row=3,column=0,padx=(450,0),pady=10)
 Entry(root,selectbackground="blue", textvariable=user).grid(row=3,column=1,padx=(0,10),pady=10)
@@ -82,12 +80,12 @@ Label(option,text="Mi A3 : It will cost you Rs
 if battery == 5000 or battery ==0:
 Label(option,text="With these configs we have only one
 device",font=("Helvetica", 12),fg="blue").grid(row=38,column=0,padx=(100,0),columnspan=6, sticky='W')
-Label(option,text="Redmi Note 9 Pro: It will cost you Rs. 12,999",font=("Helvetica", 12),fg="blue").grid(row=39,column=0,padx=(100,0),columnspan=6, sticky='W')
+Label(option,text="Redmi k20 pro: It will cost you Rs. 12,999",font=("Helvetica", 12),fg="blue").grid(row=39,column=0,padx=(100,0),columnspan=6, sticky='W')
 if camera == 64:
 if battery == 4000 or battery ==0:
 Label(option,text="Here are the recommendations for
 you:",font=("Helvetica", 12),fg="blue").grid(row=38,column=0,padx=(100,0),columnspan=6, sticky='W')
-Label(option,text="REALME X2: It will cost you Rs. 17,999",font=("Helvetica", 12),fg="blue").grid(row=39,column=0,padx=(100,0),columnspan=6, sticky='W')
+Label(option,text="Samsung j7: It will cost you Rs. 17,999",font=("Helvetica", 12),fg="blue").grid(row=39,column=0,padx=(100,0),columnspan=6, sticky='W')
 if battery ==5000:
 Label(option,text="Sorry no device with these configuration
 exists. Try other configs...",font=("Helvetica", 12),fg="blue").grid(row=38,column=0,padx=(100,0),columnspan=6, sticky='W')
@@ -114,7 +112,7 @@ Label(option,text="",font=("Helvetica", 12),fg="blue").grid(row=39,column=0,padx
 if battery == 5000 or battery ==0:
 Label(option,text="Here are the recommendations for
 you:",font=("Helvetica", 12),fg="blue").grid(row=38,column=0,padx=(100,0),columnspan=6, sticky='W')
-Label(option,text="REDMI NOTE 9 PRO MAX: It will cost you
+Label(option,text="Htc zero: It will cost you
 Rs. 15,999",font=("Helvetica", 12),fg="blue").grid(row=39,column=0,padx=(100,0),columnspan=6, sticky='W')
 if processor == 800 or processor ==5:
 Label(option,text="Sorry no device with these configuration exists. Try
@@ -156,7 +154,7 @@ Label(option,text="",font=("Helvetica", 12),fg="blue").grid(row=39,column=0,padx
 if battery == 5000 or battery ==0:
 Label(option,text="Here are the recommendations for
 you:",font=("Helvetica", 12),fg="blue").grid(row=38,column=0,padx=(100,0),columnspan=6, sticky='W')
-Label(option,text="REDMI NOTE 9 PRO MAX: It will cost you
+Label(option,text="Apple se: It will cost you
 Rs. 15,999",font=("Helvetica", 12),fg="blue").grid(row=39,column=0,padx=(100,0),columnspan=6, sticky='W')
 if processor == 800 or processor ==5:
 Label(option,text="Sorry no device with these configuration exists. Try other
@@ -171,7 +169,7 @@ if camera == 48:
 if battery == 4000 or battery == 0:
 Label(option,text="Here are the recommendations for
 you:",font=("Helvetica", 12),fg="blue").grid(row=38,column=0,padx=(100,0),columnspan=6, sticky='W')
-Label(option,text="REDMI NOTE 7 PRO: It will cost you Rs. 16,999",font=("Helvetica", 12),fg="blue").grid(row=39,column=0,padx=(100,0),columnspan=6, sticky='W')
+Label(option,text="Galaxy note 9: It will cost you Rs. 16,999",font=("Helvetica", 12),fg="blue").grid(row=39,column=0,padx=(100,0),columnspan=6, sticky='W')
 if battery == 5000:
 Label(option,text="Sorry no device with these configuration
 exists. Try other configs...",font=("Helvetica", 12),fg="blue").grid(row=38,column=0,padx=(100,0),columnspan=6, sticky='W')
@@ -180,7 +178,7 @@ if camera == 64:
 if battery == 4000 or battery == 0:
 Label(option,text="Here are the recommendations for
 you:",font=("Helvetica", 12),fg="blue").grid(row=38,column=0,padx=(100,0),columnspan=6, sticky='W')
-Label(option,text="SAMSUNG GALAXY F41: It will cost you Rs. 18,499",font=("Helvetica", 12),fg="blue").grid(row=39,column=0,padx=(100,0),columnspan=6, sticky='W')
+Label(option,text="Galay s10: It will cost you Rs. 18,499",font=("Helvetica", 12),fg="blue").grid(row=39,column=0,padx=(100,0),columnspan=6, sticky='W')
 if battery == 5000:
 Label(option,text="Here are the recommendations for
 you:",font=("Helvetica", 12),fg="blue").grid(row=38,column=0,padx=(100,0),columnspan=6, sticky='W')
