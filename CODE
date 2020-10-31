@@ -186,3 +186,4 @@ Label(option,text="REALME 7 PRO: It will cost you Rs. 21,999",font=("Helvetica",
 option.mainloop()
 Button(root,text=" Show Recommended Devices ",activeforeground="red",relief=GROOVE, activebackground="blue",command=show_device).grid(row=37,column=1,pady=10)
 Button(root,text="Press this Button to Proceed",activeforeground="red",relief=GROOVE, activebackground="blue",command=start).grid(row=24,column=1,pady=5)
+root.mainloop()
